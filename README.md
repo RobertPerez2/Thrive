@@ -1,3 +1,6 @@
+<html>
+<head></head>
+<body>
 Thrive is a web application dedicated to supporting individuals in their addiction recovery journey, specifically related to alcoholism. The platform provides a safe and supportive environment where users can share their thoughts and experiences anonymously and find validation and community through shared struggles, based on Alcoholics Anonymous.
 
 The project was curated for individuals struggling with alcohol addiction and are seeking support, community, and resources to aid them along their recovery journey. The platform may also extend to family members or loved ones who have been directly affected by individuals struggling with alcohol addiction and are also looking for support.
@@ -12,3 +15,4 @@ Once guests have either registered a new account, or signed in, they are granted
 In the site’s login authentication system, user input validation is implemented where we handle all user errors and interactions (displaying error messages where applicable). Password are encrypted and we check if the emails provided are properly formatted and unique through our own designed and normalized MySQL database. Thrive’s schema provides three (3) tables and three (3) table relationships for users, posts, and replies. It has been populated with real posts made on the community of r/alcoholicsanonymous from reddit. Lastly, we utilize session storage as a mechanism to store your user identification across pages.
 
 In summary, Thrive is a web application that provides a safe and supportive environment for individuals struggling with addiction. It offers a platform where users can share their thoughts and experiences anonymously and find validation and community through shared struggles.
+</body></html>
