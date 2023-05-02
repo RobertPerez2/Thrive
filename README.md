@@ -1,11 +1,14 @@
 <html>
 <head></head>
 <body>
+<h3> SUMMARY </h3>
 Thrive is a web application dedicated to supporting individuals in their addiction recovery journey, specifically related to alcoholism. The platform provides a safe and supportive environment where users can share their thoughts and experiences anonymously and find validation and community through shared struggles, based on Alcoholics Anonymous.
 
 The project was curated for individuals struggling with alcohol addiction and are seeking support, community, and resources to aid them along their recovery journey. The platform may also extend to family members or loved ones who have been directly affected by individuals struggling with alcohol addiction and are also looking for support.
 
-<p style='color: green;'>HOW THE SITE WORKS</p>
+<img width="482" alt="thrive copy" src="https://user-images.githubusercontent.com/89865515/235591713-3dc9622d-acc0-4164-8455-7c2dd6ffa8cc.png">
+
+<h3>HOW THE SITE WORKS</h3>
 Thrive is built through PHP, providing a responsive mobile-first web design, and an interactive user-friendly interface. The site also takes advantage of the Bootstrap CSS Framework, alongside HTML, and JavaScript. It provides full CRUD functionality built through frontend ↔ backend AJAX (JavaScript ↔ PHP) interactions and an original design with consistency across its seven distinct pages.
 
 The platform allows for everyone to browse a few select pages, and the database of posts and replies. However, we provide two separate permission levels for general and registered users. We prioritize your privacy and security so we don't store any personal information besides your email address, which we use solely for moderation purposes and to provide different features. We believe that your journey to recovery is personal and private, and we want to ensure that our platform supports that.
