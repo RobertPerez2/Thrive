@@ -1,0 +1,279 @@
+@font-face {
+	font-family: Montserrat;
+	src: url("fonts/Montserrat.ttf");
+}
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: #1D1C1A;
+    color: White;
+    margin-bottom: 20px;
+}
+.pfp {
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.join {
+  color: #90b48d;
+  font-size: 1.5em;
+}
+.clickreply {
+  text-decoration:underline;
+}
+.clickreply:hover {
+  color: #1D1C1A;
+}
+
+.pfp img {
+    width: 100%;
+    transform-origin: bottom center;
+    display: block;
+}
+
+#header {
+    font-size: 2em;
+    height: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+}
+#header h1 {
+  background-color: #B4D3B2;
+  background-image: linear-gradient(60deg, #B4D3B2, #306C48);
+  background-size: 100%;
+  font-size: 2.2em;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+h3 {
+  background-color: #B4D3B2;
+  background-image: linear-gradient(60deg, #B4D3B2, #306C48);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+h5 {
+  background-color: #B4D3B2;
+  background-image: linear-gradient(60deg, #B4D3B2, #306C48);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+textarea {
+  border-radius: 10px;
+  box-shadow: none;
+  outline: none;
+  padding: 16px;
+  margin-right: 10px;
+  resize: none;
+}
+.d-block {
+  display: block;
+}
+.personal {
+  justify-content: space-between;
+  background-color: #1D1C1A;
+}
+.mr-2 {
+  height:60px;
+  width:60px;
+  margin-left:16px;
+  margin-right:16px;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+.media-body {
+  background-color: White;
+  padding: 16px;
+  border-radius: 10px;
+  width:600px;
+
+}
+img {
+  vertical-align: middle;
+}
+.tldr {
+  color: #486856;
+}
+.section-title{
+  color: #B4D3B2;
+}
+.sidebar {
+  height: 100%;
+  width: 150px;
+  border-right: 1px solid #B4D3B2;
+  padding:10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.navbar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.navbar-item {
+  padding: 8px 25px 8px 10px;
+  margin:5px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  padding-right:10px;
+}
+#wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 970px;
+}
+#postsection {
+  width: 700px;
+}
+.navbar li:hover, .active-item {
+  outline-style: solid;
+  outline-width: 2px;
+  outline-color: #578f6e;
+}
+.navbar a {
+  text-decoration: none;
+  font-weight:bolder;
+  font-size: 1em;
+  background-color: #B4D3B2;
+  background-image: linear-gradient(120deg, #8cb589, #578f6e);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  background-clip:text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  display: block;
+}
+.navbar ul {
+  position: absolute;
+  display: none;
+}
+.navbar li:hover > ul {
+  display: block;
+}
+.navbar li:hover a, .active-item a {
+  color: #1D1C1A;
+}
+.postbutton {
+    align-self: center;
+}
+.postsection p {
+  width: 600px;
+}
+.crud {
+  border:none;
+  outline: none;
+  color:#486856;
+  font-size:x-large;
+  line-height: 100%;
+  background-color: White;
+}
+span a {
+  color:#306C48;
+  line-height: 100%;
+  margin-top:-10px;
+  padding: 0%;
+}
+.fucked {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#newmessage {
+  width: 700px;
+  height: 200px;
+}
+.like {
+  margin-top:-11px; color: black;
+}
+.post-body {
+  background-color: White;
+  padding: 16px;
+  border-radius: 10px;
+  width:800px;
+  height: auto;
+}
+.resource-container {
+  color: white;
+}
+.database {
+  width:678px;
+  height:auto;
+}
+@media (max-width: 992px) {
+    #wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    }
+    .sidebar {
+    height: auto;
+    width: 100%;
+    border-bottom: 1px solid #B4D3B2;
+    border-right: none;
+    padding:0px;
+    margin-bottom:10px;
+    flex-direction: row;
+    justify-content: center;
+    }
+    .navbar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+    .database {
+      width:670px;
+      height:auto;
+    }
+}
+@media (max-width: 767px) {
+  .database {
+    width:500px;
+    height:auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .postsection p {
+    width: 375px;
+  }
+  .media-body {
+    width: 375px;
+  }
+  .post-body {
+    width: 475px;
+  }
+  .media-body {
+    width: 375px;
+  }
+  .database {
+    width:470px;
+    height:auto;
+  }
+}
